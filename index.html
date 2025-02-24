@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV System</title>
+</head>
+<body>
+    <h1>USB Webcam Feed</h1>
+    <img src="{{ url_for('video_feed_usb') }}" alt="Feed 1">
+
+    <h1>DroidCam Feed</h1>
+    <img src="{{ url_for('video_feed_droidcam') }}" alt="Feed 2">
+</body>
+</html>
